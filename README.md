@@ -2,7 +2,7 @@
 ## Jiawei XU (jix20) & Tong Wei (tow6)
 
 
-In this project, the security test was performed on a Windows 10 laptop with a Linux Virtual Machine: Oracle VM VirtualBox. The testing tools are Kali (https://www.kali.org/) which is a powerful testing tools, it can only be running on the Unix/Linux operating systems.
+In this project, the security test was performed on a Windows 10 laptop with a Linux Virtual Machine: Oracle VM VirtualBox. The testing tools are Kali (https://www.kali.org/) which is a powerful testing tools package, it can only be running on the Unix/Linux operating systems.
 </br>
 We are going to test 3 websites choosing from the https://techguile.wordpress.com/2012/11/25/list-of-demo-websites-of-security-testing-purpose/,<br>
 <li>http://demo.testfire.net/ , 
