@@ -15,7 +15,7 @@ We are going to test 3 websites choosing from the https://techguile.wordpress.co
 In this test, we applied Nikto, which is a website vulnerability scanner tool, to scan the vulnerability of the website1. The following figure shows the overall scan results and possible vulneralibity.<br>
 <img src="https://github.com/jiaweixu/Security-Test/blob/master/material/1-1.png" width="600">
 
-In this test, ####<strong>five vulnerabilities</strong> were found:<br>
+#### In this test, <strong>five vulnerabilities</strong> were found:<br>
 
 <li>The directory, /bank, which is visible to unauthorized user. It violates Confidentiality, and interception can exploit this vulnerability. People can just use the url to get these private files. Usually the attacks exploit this vulnerability passively. And a lot of data will be lost due to the vulnerability. The development team need to rectify the code to make some update, in order to keep the directories invisible to the unauthorized users. Also, once those files are being downloaded, the system should be verifying the user identity. And after optimizing the relevant code, the developer also need to use the Nikto to make the test again.<br>
 <img src="https://github.com/jiaweixu/Security-Test/blob/master/material/1-2.png" width="400">
