@@ -9,7 +9,7 @@ We have tested 3 websites choosing from the https://techguile.wordpress.com/2012
 <li>http://www.webscantest.com/.
 #### Overall we have found <strong>11 vulnerabilities</strong> for these three websites:<br>
 <br>
-## Website 1: http:// Demo.testfire.net<br>
+## 1. Website 1: http:// Demo.testfire.net
 In this test, we applied Nikto, which is a website vulnerability scanner tool, to scan the vulnerability of the website1. The following figure shows the overall scan results and possible vulneralibity.<br>
 <img src="https://github.com/jiaweixu/Security-Test/blob/master/material/1-1.png" width="600">
 
@@ -31,7 +31,7 @@ In this test, we applied Nikto, which is a website vulnerability scanner tool, t
 <img src="https://github.com/jiaweixu/Security-Test/blob/master/material/1-6.png" width="400">
 <br>
 
-## Website 2: http://zero.webappsecurity.com</br>
+## 2. Website 2: http://zero.webappsecurity.com
 In this test, we also applied Nikto to scan the vulnerability of the website1. The following figure shows the overall scan results and possible vulneralibity.<br>
 <img src="https://github.com/jiaweixu/Security-Test/blob/master/material/2-1.png" width="600">
 
@@ -49,7 +49,7 @@ In this test, we also applied Nikto to scan the vulnerability of the website1. T
 <img src="https://github.com/jiaweixu/Security-Test/blob/master/material/2-4.png" width="600">
 
 <br>
-## Website 3: http://www.webscantest.com/</br>
+## 3. Website 3: http://www.webscantest.com/
 In this test, we also applied Nikto to scan the vulnerability of the website1. The following figure shows the overall scan results and possible vulneralibity.<br>
 <img src="https://github.com/jiaweixu/Security-Test/blob/master/material/3-1.png" width="600">
 
