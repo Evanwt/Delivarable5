@@ -5,8 +5,7 @@ In this project we...</br>
 
 ### 1.  Security Testing on website 1:</br>
 The following figure shows M:</br>
-![1_1](https://github.com/jiaweixu/Security-Test/blob/master/material/1-1.png "1_1")
-<img src="https://github.com/jiaweixu/Security-Test/blob/master/material/1-1.png" width="48">
+<img src="https://github.com/jiaweixu/Security-Test/blob/master/material/1-1.png" width="300">
 
 The following figure shows M:</br>
 ![1_2](https://github.com/jiaweixu/Security-Test/blob/master/material/1-2.png "1_2")
