@@ -4,12 +4,13 @@
 
 In this project, the security test was performed on a Windows 10 laptop with a Linux Virtual Machine: Oracle VM VirtualBox. The testing tools are Kali (https://www.kali.org/) which is a powerful testing tools package. This tools package can only be running on the Unix/Linux operating systems.
 </br><br>
-We are going to test 3 websites choosing from the https://techguile.wordpress.com/2012/11/25/list-of-demo-websites-of-security-testing-purpose/,<br>
+We have tested 3 websites choosing from the https://techguile.wordpress.com/2012/11/25/list-of-demo-websites-of-security-testing-purpose/,<br>
 <li>http://demo.testfire.net/ , 
 <li>http://zero.webappsecurity.com ,
 <li>http://www.webscantest.com/.
 
-
+<br>
+#### Totally we have found <strong>11 vulnerabilities</strong> for these three websites:<br>
 
 ### Website 1: http:// Demo.testfire.net<br>
 In this test, we applied Nikto, which is a website vulnerability scanner tool, to scan the vulnerability of the website1. The following figure shows the overall scan results and possible vulneralibity.<br>
