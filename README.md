@@ -31,10 +31,10 @@ The following figure shows M:</br>
 <img src="https://github.com/jiaweixu/Security-Test/blob/master/material/2-2.png" width="400">
 
 The following figure shows M:</br>
-<img src="https://github.com/jiaweixu/Security-Test/blob/master/material/2-3.png" width="400">
+<img src="https://github.com/jiaweixu/Security-Test/blob/master/material/2-3.png" width="600">
 
 The following figure shows M:</br>
-<img src="https://github.com/jiaweixu/Security-Test/blob/master/material/2-4.png" width="400">
+<img src="https://github.com/jiaweixu/Security-Test/blob/master/material/2-4.png" width="600">
 
 
 ### 3.  Security Testing on website 3:</br>
@@ -45,7 +45,7 @@ The following figure shows M:</br>
 <img src="https://github.com/jiaweixu/Security-Test/blob/master/material/3-2.png" width="400">
 
 The following figure shows M:</br>
-<img src="https://github.com/jiaweixu/Security-Test/blob/master/material/3-3.png" width="400">
+<img src="https://github.com/jiaweixu/Security-Test/blob/master/material/3-3.png" width="600">
 
 The following figure shows M:</br>
-<img src="https://github.com/jiaweixu/Security-Test/blob/master/material/3-4.png" width="400">
+<img src="https://github.com/jiaweixu/Security-Test/blob/master/material/3-4.png" width="600">
