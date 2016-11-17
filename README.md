@@ -33,29 +33,35 @@ In this test, we applied Nikto, which is a website vulnerability scanner tool, t
 <img src="https://github.com/jiaweixu/Security-Test/blob/master/material/1-6.png" width="400">
 
 
-### 2.  Security Testing on website 2:</br>
-The following figure shows M:</br>
+### Website 2: http://zero.webappsecurity.com</br>
+In this test, we also applied Nikto to scan the vulnerability of the website1. The following figure shows the overall scan results and possible vulneralibity.<br>
 <img src="https://github.com/jiaweixu/Security-Test/blob/master/material/2-1.png" width="600">
 
-The following figure shows M:</br>
+
+#### In this test, <strong>Three vulnerabilities</strong> were found:<br>
+
+
+<li>The directory, /admin, is visible to unauthorized user. It violates Confidentiality. And interruption, interception and modification can exploit this vulnerability. People can just use this url to get accessed to this page without any verification. Usually the attacks exploit this vulnerability actively. And the development team need to rectify the code to make the update, in order to make this page not accessible to the unauthorized users. When the developers finish updating, they need to test it again.<br>
 <img src="https://github.com/jiaweixu/Security-Test/blob/master/material/2-2.png" width="400">
 
-The following figure shows M:</br>
+<li>The confidential information of users, such as user name, password, and SSN are readable by unauthorized users. It extremely violates Confidentiality.  And interruption and interception can exploit this vulnerability. People can just use this url to get accessed to this page without any verification. Usually the attacks exploit this vulnerability actively. And the development team need to rectify the code to make the update, in order to make this page not accessible to the unauthorized users. When the developers finish updating, they need to test it again to make sure it is secure.<br>
 <img src="https://github.com/jiaweixu/Security-Test/blob/master/material/2-3.png" width="600">
 
-The following figure shows M:</br>
+<li>The confidential information of Currencies, is writable to unauthorized users:(We have Exploiting Vulnerability by add the last line, see the following snapshot). It violates Confidentiality and Integrity. And interruption, interception and modification can exploit this vulnerability. People can just use this url to get accessed to this page to get users’ private information. Usually the attacks exploit this vulnerability actively. And the development team need to rectify the code to make the update, in order to make this page not accessible to the unauthorized users. When the developers finish updating, they need to test it again to make sure it is secure.<br>
 <img src="https://github.com/jiaweixu/Security-Test/blob/master/material/2-4.png" width="600">
 
 
-### 3.  Security Testing on website 3:</br>
-The following figure shows M:</br>
+### Website 3: http://www.webscantest.com/</br>
+In this test, we also applied Nikto to scan the vulnerability of the website1. The following figure shows the overall scan results and possible vulneralibity.<br>
 <img src="https://github.com/jiaweixu/Security-Test/blob/master/material/3-1.png" width="600">
 
-The following figure shows M:</br>
+#### In this test, <strong>Three vulnerabilities</strong> were found:<br>
+
+<li>The confidential file, robots.txt, containing 4 entries, which is visible to unauthorized user. It violates Confidentiality. And interception can exploit this vulnerability. People can just use the url to get the private files. Usually the attacks exploit this vulnerability passively. And this important data will be lost due to the vulnerability. The development team need to rectify the code to make the update in order to keep this files invisible to the unauthorized users. When the developers finish updating, they need to test it again and to make sure it is secure.<br>
 <img src="https://github.com/jiaweixu/Security-Test/blob/master/material/3-2.png" width="400">
 
-The following figure shows M:</br>
+<li>The directory, /osrun, is visible to the unauthorized user. It violates Confidentiality. It is vulnerable to cmd inject. And modification can exploit this vulnerability. People can just use the url to get accessed to this page. Usually the attacks exploit this vulnerability actively. The development team need to rectify the code to make the update, in order to keep the page not accessible to the unauthorized users. When the developers finish updating, they need to test it again and to make sure it is secure.<br>
 <img src="https://github.com/jiaweixu/Security-Test/blob/master/material/3-3.png" width="600">
 
-The following figure shows M:</br>
+<li>The directory, /cal_endar, is visible to unauthorized users. It violates Confidentiality. The users’ appointments are all readable to unauthorized users. And interception can exploit this vulnerability. People can just use this url to get accessed to this page without any verification. Usually the attacks exploit this vulnerability actively. And the development team need to rectify the code to make the update, in order to make this page not accessible to the unauthorized users. When the developers finish updating, they need to test it again to make sure it is secure.<br>
 <img src="https://github.com/jiaweixu/Security-Test/blob/master/material/3-4.png" width="600">
