@@ -11,25 +11,25 @@ We are going to test 3 websites choosing from the https://techguile.wordpress.co
 
 
 
-### Website 1: http:// Demo.testfire.net</br>
-In this test, we applied Nikto, which is a website vulnerability scanner tool, to scan the vulnerability of the website1. The following figure shows the overall scan results and possible vulneralibity.</br>
+### Website 1: http:// Demo.testfire.net<br>
+In this test, we applied Nikto, which is a website vulnerability scanner tool, to scan the vulnerability of the website1. The following figure shows the overall scan results and possible vulneralibity.<br>
 <img src="https://github.com/jiaweixu/Security-Test/blob/master/material/1-1.png" width="600">
 
 In this test,five vulnerabilities were found:<br>
-1. A numbered list
-1. The directory, /bank, which is visible to unauthorized user. It violates Confidentiality, and interception can exploit this vulnerability. People can just use the url to get these private files. Usually the attacks exploit this vulnerability passively. And a lot of data will be lost due to the vulnerability. The development team need to rectify the code to make some update, in order to keep the directories invisible to the unauthorized users. Also, once those files are being downloaded, the system should be verifying the user identity. And after optimizing the relevant code, the developer also need to use the Nikto to make the test again.</br>
+
+<li>The directory, /bank, which is visible to unauthorized user. It violates Confidentiality, and interception can exploit this vulnerability. People can just use the url to get these private files. Usually the attacks exploit this vulnerability passively. And a lot of data will be lost due to the vulnerability. The development team need to rectify the code to make some update, in order to keep the directories invisible to the unauthorized users. Also, once those files are being downloaded, the system should be verifying the user identity. And after optimizing the relevant code, the developer also need to use the Nikto to make the test again.<br>
 <img src="https://github.com/jiaweixu/Security-Test/blob/master/material/1-2.png" width="400">
 
-The following figure shows M:</br>
+<li>The directory, /pr, which is visible to unauthorized user. Just the same as the first vulnerability, it violates Confidentiality, and interception can exploit this vulnerability. People can just use the url to get these private files. Usually the attacks exploit this vulnerability passively. And a lot of data will be lost due to the vulnerability. For example, the Q3_earnings generally cannot be disclosed. The development team need to rectify the code to make some update, in order to keep the directories invisible to the unauthorized users. When the developers finish updating, they need to test it again.
 <img src="https://github.com/jiaweixu/Security-Test/blob/master/material/1-3.png" width="400">
 
-The following figure shows M:</br>
+<li>The file community annualreport.pdf, which is readable for unauthorized users. It violates Confidentiality. And interception can exploit this vulnerability. People can just use the url to get the private files. Usually the attacks exploit this vulnerability passively. And this important data will be lost due to the vulnerability. The development team need to rectify the code to make the update, in order to keep this files invisible to the unauthorized users. When the developers finish updating, they need to test it again.
 <img src="https://github.com/jiaweixu/Security-Test/blob/master/material/1-4.png" width="400">
 
-The following figure shows M:</br>
+<li>The confidential draft, Draft.rtf, which can be downloaded and read by unauthorized users.  It violates Confidentiality. And interception can exploit this vulnerability. People can just use the url to get the private files. Usually the attacks exploit this vulnerability passively. And this important data will be lost due to the vulnerability. We can see that this files have given us a caution that it is a confidential draft, so it shouldn’t be accessible to the unauthorized users. The development team need to rectify the code to make the update, in order to keep this files invisible to the unauthorized users. When the developers finish updating, they need to test it again. When this files need to be downloaded, the system should verify the user identity.
 <img src="https://github.com/jiaweixu/Security-Test/blob/master/material/1-5.png" width="400">
 
-The following figure shows M:</br>
+<li>The confidential document, Q3_earnings.rtf, which can be downloaded and read by unauthorized users.  It violates Confidentiality. And interception can exploit this vulnerability. People can just use the url to get the private files. Usually the attacks exploit this vulnerability passively. And this important data will be lost due to the vulnerability. The development team need to rectify the code to make the update, in order to keep this files invisible to the unauthorized users. When the developers finish updating, they need to test it again.
 <img src="https://github.com/jiaweixu/Security-Test/blob/master/material/1-6.png" width="400">
 
 
