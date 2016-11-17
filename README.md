@@ -1,6 +1,5 @@
 # IS2545 DELIVERABLE 5: Security Test
-## Jiawei XU (jix20) & Tong Wei (tow6)
-
+###
 
 In this project, the security test was performed on a Windows 10 laptop with a Linux Virtual Machine: Oracle VM VirtualBox. The testing tools are Kali (https://www.kali.org/) which is a powerful testing tools package. This tools package can only be running on the Unix/Linux operating systems.
 </br><br>
@@ -10,7 +9,7 @@ We have tested 3 websites choosing from the https://techguile.wordpress.com/2012
 <li>http://www.webscantest.com/.
 #### Overall we have found <strong>11 vulnerabilities</strong> for these three websites:<br>
 
-### Website 1: http:// Demo.testfire.net<br>
+## Website 1: http:// Demo.testfire.net<br>
 In this test, we applied Nikto, which is a website vulnerability scanner tool, to scan the vulnerability of the website1. The following figure shows the overall scan results and possible vulneralibity.<br>
 <img src="https://github.com/jiaweixu/Security-Test/blob/master/material/1-1.png" width="600">
 
@@ -32,7 +31,7 @@ In this test, we applied Nikto, which is a website vulnerability scanner tool, t
 <img src="https://github.com/jiaweixu/Security-Test/blob/master/material/1-6.png" width="400">
 
 
-### Website 2: http://zero.webappsecurity.com</br>
+## Website 2: http://zero.webappsecurity.com</br>
 In this test, we also applied Nikto to scan the vulnerability of the website1. The following figure shows the overall scan results and possible vulneralibity.<br>
 <img src="https://github.com/jiaweixu/Security-Test/blob/master/material/2-1.png" width="600">
 
@@ -50,7 +49,7 @@ In this test, we also applied Nikto to scan the vulnerability of the website1. T
 <img src="https://github.com/jiaweixu/Security-Test/blob/master/material/2-4.png" width="600">
 
 
-### Website 3: http://www.webscantest.com/</br>
+## Website 3: http://www.webscantest.com/</br>
 In this test, we also applied Nikto to scan the vulnerability of the website1. The following figure shows the overall scan results and possible vulneralibity.<br>
 <img src="https://github.com/jiaweixu/Security-Test/blob/master/material/3-1.png" width="600">
 
