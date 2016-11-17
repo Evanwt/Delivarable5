@@ -1,5 +1,5 @@
 # IS2545 DELIVERABLE 5: Security Test
-###
+### Jiawei Xu (jix20) and Tong Wei (tow6)
 
 In this project, the security test was performed on a Windows 10 laptop with a Linux Virtual Machine: Oracle VM VirtualBox. The testing tools are Kali (https://www.kali.org/) which is a powerful testing tools package. This tools package can only be running on the Unix/Linux operating systems.
 </br><br>
