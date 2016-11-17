@@ -8,7 +8,7 @@ We have tested 3 websites choosing from the https://techguile.wordpress.com/2012
 <li>http://zero.webappsecurity.com ,
 <li>http://www.webscantest.com/.
 #### Overall we have found <strong>11 vulnerabilities</strong> for these three websites:<br>
-
+<br>
 ## Website 1: http:// Demo.testfire.net<br>
 In this test, we applied Nikto, which is a website vulnerability scanner tool, to scan the vulnerability of the website1. The following figure shows the overall scan results and possible vulneralibity.<br>
 <img src="https://github.com/jiaweixu/Security-Test/blob/master/material/1-1.png" width="600">
@@ -29,7 +29,7 @@ In this test, we applied Nikto, which is a website vulnerability scanner tool, t
 
 <li>The confidential document, Q3_earnings.rtf, which can be downloaded and read by unauthorized users.  It violates Confidentiality. And interception can exploit this vulnerability. People can just use the url to get the private files. Usually the attacks exploit this vulnerability passively. And this important data will be lost due to the vulnerability. The development team need to rectify the code to make the update, in order to keep this files invisible to the unauthorized users. When the developers finish updating, they need to test it again.<br>
 <img src="https://github.com/jiaweixu/Security-Test/blob/master/material/1-6.png" width="400">
-
+<br>
 
 ## Website 2: http://zero.webappsecurity.com</br>
 In this test, we also applied Nikto to scan the vulnerability of the website1. The following figure shows the overall scan results and possible vulneralibity.<br>
@@ -48,7 +48,7 @@ In this test, we also applied Nikto to scan the vulnerability of the website1. T
 <li>The confidential information of Currencies, is writable to unauthorized users:(We have Exploiting Vulnerability by add the last line, see the following snapshot). It violates Confidentiality and Integrity. And interruption, interception and modification can exploit this vulnerability. People can just use this url to get accessed to this page to get users’ private information. Usually the attacks exploit this vulnerability actively. And the development team need to rectify the code to make the update, in order to make this page not accessible to the unauthorized users. When the developers finish updating, they need to test it again to make sure it is secure.<br>
 <img src="https://github.com/jiaweixu/Security-Test/blob/master/material/2-4.png" width="600">
 
-
+<br>
 ## Website 3: http://www.webscantest.com/</br>
 In this test, we also applied Nikto to scan the vulnerability of the website1. The following figure shows the overall scan results and possible vulneralibity.<br>
 <img src="https://github.com/jiaweixu/Security-Test/blob/master/material/3-1.png" width="600">
